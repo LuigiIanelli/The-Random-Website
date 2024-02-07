@@ -1,0 +1,56 @@
+HTML
+<!DOCTYPE html>
+<html> </html>
+<title> </title>
+<head> </head>
+<body> </body>
+<p> </p>
+<br>
+<h1> </h1> can be from h1 to h6
+<a href="Link here">Name of link</a>
+<a href=""> </a>
+<img src="Image file here">
+<img src="">name 
+<img src="" width=”num of pixels” height=”num of pixels”> use number followed by px (eg: 250px)
+<i> </i> italic
+<strong> </strong> Bold
+<u> </u> underline
+<ol> </ol>
+<ul> </ul>
+<li> </li>
+<div> </div> Make sections and classify the sections
+<marquee></marquee> scrolling stuff. 
+<marquee scrollamount="speedAsNum" direction="UpDownLeftRight"></marquee>
+<script>Add java into your code</script>
+
+CSS
+body {}
+background {}
+head {}
+p {}
+h1 {}
+
+{Stuff in here}
+{}
+color: Basically any colour
+font-family: Arial, Tohoma, Times New Roman
+text-align: left, center, right
+font-style: Italic
+font-weight: bold
+font-size:
+Background-color; Any colour
+Border-style solid
+border-width px
+padding px
+margin px
+ img {  display: block;  margin-left: auto;  margin-right: auto;} Image centre tag
+
+.class{}
+. {}
+Class - certain rules for things within that classification to follow
+#id{}
+Id - Similar to class but can only be used once. However you can have multiple id tags.
+
+Javascript
+The script of Java
+Is complicated

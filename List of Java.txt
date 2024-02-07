@@ -1,0 +1,6 @@
+JavaScript
+i have learnt the script of java
+<script></script>
+new html thing.
+<Thing onclick="myFunction(this, 'colour')">Click this.</Thing>
+<script>function myFunction(element, color) {element.style.color = color;}</script>
