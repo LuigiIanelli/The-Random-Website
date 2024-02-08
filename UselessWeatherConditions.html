@@ -10,8 +10,12 @@ body{background-color: black;}
 .large{font-size: 40px;}
 .white{color: white; font-family: 'Oswald', sans-serif; text-align: center;}
 .InfoTop{color: white; font-family: 'Oswald', sans-serif; text-align: center; font-size: 60px;}
-.TodayImage{margin-left: 100px}
-.whatever {display: grid;grid-template: 1fr / 2fr; width: 100%; height: 80px;}
+.TodayImage{margin-left: 140px}
+.whatever {display: grid;grid-template: 1fr / 3fr 1fr 3fr; width: 100%; height: 45vh;}
+.TodayDesc{font-size: 30px; text-align: left;}
+ul{list-style-type: none; color: white; font-size: 28px; font-family: 'Oswald', sans-serif;}
+hr{background-color: white;}
+.DaysToCome{margin-left: 140px; margin-right: 110px; display: grid;grid-template: 1fr / 3fr 1fr 3fr; width: 100%; height: 10vh; color: white;}
 </style>
 </head>
 <body>
@@ -19,6 +23,20 @@ body{background-color: black;}
 <h3 class="white">expect the unexpected</h3>
 <h1 class="InfoTop">Tuesday 1st November 2024</h1>
 <div class="whatever">
-<img src="LossyCompression.jfif" class="TodayImage"> <p class="white">qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq</p>
+<img src="LossyCompression.jfif" class="TodayImage">
+<ul>
+<li>31°C</li>
+<li>28°C</li>
+<li>44°C</li>
+</ul>
+<p class="white TodayDesc">Expect Lossy Compression to be taking a bath today.</p>
+</div>
+<hr>
+<div class="DaysToCome"><img src="LossyCompression.jfif" height="9vh"> <p>31°C</p> <p>Monday</p></div>
+<hr>
+<div class="DaysToCome"><img src="LossyCompression.jfif" height="9vh"> <p>12°C</p> <p>Wednesday</p></div>
+<hr>
+<div class="DaysToCome"><img src="LossyCompression.jfif" height="9vh"> <p>442°C</p> <p>Saturday</p></div>
+</div>
 </body>
 </html>
