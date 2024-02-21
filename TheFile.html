@@ -1,120 +1,173 @@
 <!DOCTYPE html>
 <html>
-<head><title>Hello I am a tab</title>
-<style>
-.class{color: tomato; background-color: DarkBlue}
-.class2{color: bisque; background-color:DarkOliveGreen; border-style: dashed; border-color: Bisque}
-.class3{color: tomato; background-color: #009be8; font-weight: bold; font-family: Courier; border-style: solid; border-color: yellow}
-#Ide{color: DarkSeaGreen; background-color: yellow;}
-#Link{font-family: Tahoma}
-p{font-family: Arial}
-</style>
+<head>
+	<title>Hello I am a tab</title>
+	<style>
+		body{text-align: center;}
+		.class{
+			color: tomato;
+			background-color: DarkBlue
+			}
+		.class2{
+			color: bisque;
+			background-color:DarkOliveGreen; 
+			border-style: dashed; 
+			border-color: Bisque; 
+			text-align: left
+			}
+		.class3{
+			color: tomato;
+			background-color: #009be8;
+			font-weight: bold;
+			font-family: Courier;
+			border-style: solid;
+			border-color: yellow;
+			text-align: left
+			}
+		#Ide{
+			color: DarkSeaGreen;
+			background-color: yellow;
+			}
+		#Link{
+			font-family: Tahoma
+		}
+		p{
+			font-family: Arial
+			}
+	</style>
 </head>
 <body>
-<br>
-<br>
-<br>
-<br>
-<p><strong>[List Heading]:</strong></p>
-<ul>
-<li>Item 1</li>
-<li>Item 2</li>
-</ul>
+	<br>
+	<br>
+	<br>
+	<br>
+	<p>
+	<strong>[List Heading]:</strong>
+	</p>
+	<ul>
+		<li>Item 1</li>
+		<li>Item 2</li>
+	</ul>
 
-<h2><strong>Heading</strong></h2>
-<img src="LossyCompression.jfif">
-<p>The above is an image of Lossy Compression</p>
+	<h2>
+	<strong>Heading</strong>
+	</h2>
+	<img src="LossyCompression.jfif">
+	<p>
+		The above is an image of Lossy Compression
+	</p>
 
-<marquee><---Marquee. Scrolling This way. Default Speed</marquee>
-<marquee direction="right" scrollamount="55">Marquee. Scrolling That way, Fast speed---></marquee>
+	<marquee><---Marquee. Scrolling This way. Default Speed </marquee>
+	<marquee direction="right" scrollamount="55">Marquee. Scrolling That way, Fast speed---></marquee>
 
-<p class = "class"> I am in a class</p>
-<br>
-<p class = "class"> So am I</p>
-<br>
-<p ID="Ide">I'm an ID, I'm unique.</p>
+	<p class = "class">
+		I am in a class
+	</p>
+	<br>
+	<p class = "class">
+		So am I
+	</p>
+	<br>
+	<p ID="Ide">
+		I'm an ID, I'm unique.
+	</p>
 
-<p>Anything that is a paragraph [p] follows the p rules from the internal style sheet. In this case, it just changes the font.
-But if you look at the list and heading at the top, they aren't paragraphs so they don't follow it</p>
+	<p>
+		Anything that is a paragraph [p] follows the p rules from the internal style sheet. In this case, it just changes the font.
+		But if you look at the list and heading at the top, they aren't paragraphs so they don't follow it
+	</p>
 
-<div class = "class3">
-<h3>TO DO: </h3>
-<br>
-<ol>
-<li>Make divs and explain divs.</li>
-<li>Make ordered list and explain it</li>
-<li>Make a To do list</li>
-</ol>
-</div>
+	<div class = "class3">
+		<h3>TO DO: </h3>
+		<br>
+		<ol>
+			<li>Make divs and explain divs.</li>
+			<li>Make ordered list and explain it</li>
+			<li>Make a To do list</li>
+		</ol>
+	</div>
 
-<div class = "class2">
-<p> This is a div (division). Divs split up things into sections.</p>
-<marquee direction="right"> <img src="LossyCompression.jfif" width=80px height=50px> </marquee>
-<p> Everything in a div will follow the rules of a div class that do not overwrite their own, like <strong>ID</strong> and <i>Class</i>.</p>
-</div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<a ID="Link" href="TheFile.html">Open up this exact file, Again.</a>
-<br>
-<a ID="Link" href="The%20other%20File.html">A new file</a>
-<br>
-<br>
-<br>
-<br>
-<h1>Heading Size 1</h1>
-<h2>Heading Size 2</h2>
-<h3>Heading Size 3</h3>
-<h4>Heading Size 4</h4>
-<h5>Heading Size 5</h5>
-<h6 onclick="ColourChange(this, 'red')">Heading Size 6 (the final one)</h6>
-<script>function ColourChange(element, color) {element.style.color = color;}</script>
-<p ondblclick="ColourChange(this, 'green')">try clicking h6</p>
+	<div class = "class2">
+		<p>
+			This is a div (division). Divs split up things into sections.
+		</p>
+		<marquee direction="right"> 
+			<img src="LossyCompression.jfif" width=80px height=50px> 
+		</marquee>
+		<p>
+			Everything in a div will follow the rules of a div class that do not overwrite their own, like <strong>ID</strong> and <i>Class</i>.
+		</p>
+		<p>
+			You may notice this text is aligned to the left but everything else is is centered.
+		</p>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<a ID="Link" href="TheFile.html">Open up this exact file, Again.</a>
+	<br>
+	<a ID="Link" href="The%20other%20File.html">A new file</a>
+	<br>
+	<br>
+	<br>
+	<br>
+	<h1>Heading Size 1</h1>
+	<h2>Heading Size 2</h2>
+	<h3>Heading Size 3</h3>
+	<h4>Heading Size 4</h4>
+	<h5>Heading Size 5</h5>
+	<h6 onclick="ColourChange(this, 'red')">Heading Size 6 (the final one)</h6>
+	<script>function ColourChange(element, color) {element.style.color = color;}</script>
+	<p ondblclick="ColourChange(this, 'green')">
+		try clicking h6
+	</p>
 
-<p>That was <strong onmouseover="ColourChange(this, 'red')" onmouseout="ColourChange(this, 'black')" onclick="ColourChange(this, 'blue')" >Java</strong> right there. try hovering over the bold Java.</p>
-<br>
+	<p>
+		That was <strong onmouseover="ColourChange(this, 'red')" onmouseout="ColourChange(this, 'black')" onclick="ColourChange(this, 'blue')" >Java</strong> right there. try hovering over the bold Java.
+	</p>
+	<br>
 
-<img src="LossyCompression.jfif" onmouseover="BigCat(this)" onmouseout="SmallCat(this)" width = "80px" height = "50px">
-<script>function BigCat(x) {x.style.width = "400px"; x.style.height = "250px";} function SmallCat(x) {x.style.width = "80px"; x.style.height = "50px";}</script>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<a ID="Link" href="index.html">To Hallway</a>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+	<img src="LossyCompression.jfif" onmouseover="BigCat(this)" onmouseout="SmallCat(this)" width = "80px" height = "50px">
+	<script>function BigCat(x) {x.style.width = "400px"; x.style.height = "250px";} function SmallCat(x) {x.style.width = "80px"; x.style.height = "50px";}</script>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<a ID="Link" href="index.html">To Hallway</a>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
 </body>
 </html>
